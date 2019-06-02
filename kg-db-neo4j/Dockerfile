@@ -1,6 +1,6 @@
 #Dockerfile for AmbiverseNLU KG Neo4j Database
 
-FROM neo4j:3.5.0
+FROM neo4j:3.5.0-enterprise
 
 MAINTAINER AmbiverseNLU <ambiversenlu-admin@mpi-inf.mpg.de>
 
