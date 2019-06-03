@@ -168,6 +168,7 @@ if [ "$1" = 'cassandra' ]; then
 		num_tokens \
 		rpc_address \
 		start_rpc \
+		read_request_timeout_in_ms \
 	; do
 		var="CASSANDRA_${yaml^^}"
 		val="${!var}"
